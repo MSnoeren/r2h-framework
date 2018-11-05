@@ -1,0 +1,23 @@
+{
+    "name": "msnoeren/r2h-framework",
+    "description": "Framework used by R2H software.",
+    "type": "library",
+    "license": "GNU/GPLv3",
+    "authors": [
+        {
+            "name": "Michael Snoeren",
+            "email": "michael@r2h.nl"
+        }
+    ],
+    "require": {
+        "joomla/registry": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "R2HFramework\\": "src/R2HFramework"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
