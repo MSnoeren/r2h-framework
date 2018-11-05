@@ -8,7 +8,7 @@
 
 namespace R2HFramework\Objects;
 
-use R2HFramework\Traits\Fillable;
+use R2HFramework\Traits\Object\Fillable;
 
 class DataObject
 {

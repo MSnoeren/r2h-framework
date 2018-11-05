@@ -6,7 +6,7 @@
  * @copyright 	R2H Marketing & Internet Solutions
  */
 
-namespace R2HFramework\Traits;
+namespace R2HFramework\Traits\Object;
 
 use R2HFramework\Strategies\Output\JsonStrategy;
 
