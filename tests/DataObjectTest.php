@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class DataObjectText extends TestCase
+class DataObjectTest extends TestCase
 {
 	/**
 	 * Data storage object.
