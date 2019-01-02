@@ -1,5 +1,5 @@
 {
-    "name": "msnoeren/r2h-framework",
+    "name": "r2h/framework",
     "description": "Framework used by R2H software.",
     "type": "library",
     "license": "GPL-3.0-only",
