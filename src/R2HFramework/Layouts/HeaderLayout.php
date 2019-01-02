@@ -20,7 +20,7 @@ class HeaderLayout extends AbstractLayout
      * @var     integer $size The size of the title-part in the header in columns.
      * @access  protected
      */
-    protected $size = 3;
+    protected $size = 2;
 
     /**
      * Constructor
@@ -29,7 +29,7 @@ class HeaderLayout extends AbstractLayout
      * @access  public
      * @return  void
      */
-    public function __construct(string $title = '', int $size = 3)
+    public function __construct(string $title = '', int $size = 2)
     {
         if (!empty($title)) {
             $this->setTitle($title);
@@ -52,9 +52,9 @@ class HeaderLayout extends AbstractLayout
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-<?php echo $this->size; ?>">
-                        <div class="ft-header-title">
+                        <h2 class="ft-header-title">
                             <?php echo $this->title; ?>
-                        </div>
+                        </h2>
                     </div>
 
                     <div class="col-xs-12 col-sm-<?php echo (12 - $this->size); ?>">
