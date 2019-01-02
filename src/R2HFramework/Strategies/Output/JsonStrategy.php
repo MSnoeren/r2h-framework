@@ -1,5 +1,4 @@
 <?php
-
 /**
  * R2H Framework
  * @author		Michael Snoeren <michael@r2h.nl>
@@ -9,9 +8,9 @@
 
 namespace R2HFramework\Strategies\Output;
 
-use R2HFramework\Contracts\OutputStrategyInterface;
+use R2HFramework\Contracts\OutputStrategyContract;
 
-class JsonStrategy implements OutputStrategyInterface
+class JsonStrategy implements OutputStrategyContract
 {
 	/**
 	 * Convert the array data to json.

@@ -8,7 +8,7 @@
 
 namespace R2HFramework\Contracts;
 
-interface OutputStrategyInterface
+interface OutputStrategyContract
 {
 	/**
 	 * Convert the array data to the right format.
